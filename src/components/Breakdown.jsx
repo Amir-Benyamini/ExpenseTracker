@@ -23,7 +23,7 @@ class Breakdown extends Component {
 						</TableHead>
 						<TableBody>
 							{categories.map(c => (
-								<TableRow key={c.category}>
+								<TableRow style={{backgroundColor: c.amount > 0 ? '#effad3': '#f4d9c6'}} key={c.category} >
 									<TableCell align="center">{c.category}</TableCell>
 									<TableCell align="center">{c.amount} <AttachMoney /></TableCell>
 								</TableRow>

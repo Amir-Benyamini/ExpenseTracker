@@ -16,7 +16,7 @@ class Transaction extends Component {
 			<div>
 				<div>
 					<Container>
-						<Paper elevation='3'style={{backgroundColor: this.props.transaction.amount > 0 ? '#34eb7d': '#eb4034'}}>
+						<Paper elevation='3'style={{backgroundColor: this.props.transaction.amount > 0 ? '#effad3': '#f4d9c6'}}>
 							<Grid container spacing={3}>
 								<Grid item xs>
 									<Typography variant="subtitle2">
