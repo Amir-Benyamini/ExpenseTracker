@@ -27,7 +27,7 @@ class Navbar extends Component {
 						<IconButton onClick={this.handleDrawerOpen} edge="start" color="inherit" aria-label="menu">
 							<Menu />
 						</IconButton>
-						<Typography variant="h6" style={{flexGrow : 1, color: this.props.balance > 500 ? '#effad3': '#f4d9c6'}}>
+						<Typography variant="h6" style={{flexGrow : 1, color: this.props.balance > 500 ? '#a8dda8': '#f05454'}}>
 							Balance: {this.props.balance}<AttachMoney />
 						</Typography>
 					</Toolbar>
